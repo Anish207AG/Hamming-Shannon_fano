@@ -1,25 +1,25 @@
 # Huffman-Shannon_fano
 # Aim:
-Consider a discrete memoryless source with symbols and statistics {0.125, 0.0625, 0.25, 0.0625, 0.125, 0.125, 0.25} for its output. 
+Consider a discrete memoryless source with symbols and statistics {0.4,0.2,0.2,0.1,0.1} for its output. 
 Apply the Huffman and Shannon-Fano to this source. Show that draw the tree diagram, the average code word length, Entropy, Variance, Redundancy, Efficiency.
 # Tools Required:
 Python IDE with Numpy and Scipy.
 
 # Program:
 ```
-#Huffman and Shannon-Fano coding
+# Huffman and Shannon-Fano coding
 import numpy as np
-import math 
+import math
 L  = 0
 hs = 0
 p = []
 lk = []
 n = int(input("Enter the number of Samples : "))
-for i in range (n): 
-    pr = float(input(f"Enter the probability of sample values {i + 1}: "))  
+for i in range (n):
+    pr = float(input(f"Enter the probability of sample values {i + 1}: "))
     p.append(pr)
-for j in range (n): 
-    l = float(input(f"Enter the length of the sample values {j + 1}: "))  
+for j in range (n):
+    l = float(input(f"Enter the length of the sample values {j + 1}: "))
     lk.append(l)
 # Avg length of the code word
 for k in range (n):
@@ -33,8 +33,8 @@ hs = round(hs,3)
 # Efficiency
 eff =  hs / L
 eff = round(eff,3)
-# Redundancy 
-red =  round(1 - eff,3) 
+# Redundancy
+red =  round(1 - eff,3)
 # Variance
 var = 0
 for k in range(n):
@@ -48,14 +48,16 @@ print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
 ```
 # Calculation:
-![WhatsApp Image 2025-09-01 at 12 33 13_a5dc81da](https://github.com/user-attachments/assets/17ddac48-1f60-4992-b789-681f5465a5a7)
-![WhatsApp Image 2025-09-01 at 12 33 11_1388be16](https://github.com/user-attachments/assets/8ee3cd3e-b2a3-4bc3-8cff-d302c090fd6b)
+<img width="1600" height="1284" alt="image" src="https://github.com/user-attachments/assets/3bd6934d-a292-415d-a72d-6126e3b81894" />
 
+
+<img width="1600" height="1353" alt="image" src="https://github.com/user-attachments/assets/a4e3ac2e-6a61-4664-a0db-22495bfbc072" />
 
 
 
 # Output
-![image](https://github.com/user-attachments/assets/38be31cf-18e4-4dfe-86bf-9da261cb469d)
+
+<img width="489" height="344" alt="image" src="https://github.com/user-attachments/assets/028c89ff-f642-4403-8d68-02e146538e46" />
 
 # Results:
 
