@@ -7,7 +7,10 @@ Python IDE with Numpy and Scipy.
 
 # Program:
 ```
-# Huffman and Shannon-Fano coding
+#NAME : ANISH A
+#REG NO : 212224060020
+#EXP NO : 2
+#EXP NAME : Huffman and Shannon-Fano coding
 import numpy as np
 import math
 L  = 0
@@ -45,7 +48,7 @@ print(f"Average Codeword Length is : {L}")
 print(f"Entropy is : {hs}")
 print(f"Efficiency is : {eff}")
 print(f"Redudancy is : {red}")
-print(f"Variance is : {var}")
+print(f"Variance is : {var}")
 ```
 # Calculation:
 <img width="1600" height="1284" alt="image" src="https://github.com/user-attachments/assets/3bd6934d-a292-415d-a72d-6126e3b81894" />
