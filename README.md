@@ -7,10 +7,6 @@ Python IDE with Numpy and Scipy.
 
 # Program:
 ```
-#NAME : ANISH A
-#REG NO : 212224060020
-#EXP NO : 2
-#EXP NAME : Huffman and Shannon-Fano coding
 import numpy as np
 import math
 L  = 0
